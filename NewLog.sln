@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLog.Infra.ORACLE", "NewLog\NewLog.Infra.ORACLE.csproj", "{B8ED0983-B344-4A42-B67F-27689BA51E8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5} = {A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLog.Domain", "NewLog.Domain\NewLog.Domain.csproj", "{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8ED0983-B344-4A42-B67F-27689BA51E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8ED0983-B344-4A42-B67F-27689BA51E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8ED0983-B344-4A42-B67F-27689BA51E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8ED0983-B344-4A42-B67F-27689BA51E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E7F4DD-F7F3-43A1-A948-1EF096D30AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13ED10FF-19A0-4A6E-AB65-70AC5BBB520B}
+	EndGlobalSection
+EndGlobal
